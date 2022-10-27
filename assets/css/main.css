@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Selectores: Refencias a elementos del HTML*/
+/* Typos de selectores */
+
+/* 
+Selectores de tipo etiqueta 
+p
+h1
+h2
+body
+div
+main
+section
+header
+nav
+ul
+ol
+li
+img
+*/
+p {
+  color: #fff;
+  background: #323232;
+}
+
+/* 
+Selectores de tipo clase son identificadores para grupos de elementos
+Para instanciarlo (Usarlo) se inicia con un signo de numeral .
+.parrafo
+*/
+.parrafo {
+  color: blue;
+  background-color: rgb(216, 216, 216);
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* 
+Selectores de tipo id son identificadores únicos, no pueden haber en un html 2 elementos con el mismo id
+Para instanciarlo (Usarlo) se inicia con un signo de numeral #
+#p-2
+*/
+#p-2 {
+  color: crimson;
+  background-color: darkcyan;
+  font-size: 20px;
+  font-weight: 500;
+}
